@@ -4,14 +4,14 @@ whatIsYourName = input('what would like me to call you')
 class AI:
       
       def __init__(self, name):
-            self.name = name
+            self.name = cyana
             
-P1 = AI(Select_name)
+
 
 def list():
       print('define words(type define than the word you want to define) \n tell you my name (make sure you type What is your name) \n What i am (type what are you) \n Tell you the time \n'
 
-whatIsYourName = ('my name' + )
+whatIsYourName = ('my name is cyana' )
 WhatCanIDO = 'here is a list of things i can do'
 WhatAreYou = 'I am a ANI or Artificial Narrow Intelligence'
 now = datetime.datetime.now()
