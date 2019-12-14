@@ -9,7 +9,7 @@ class AI:
 
 
 def list():
-      print('define words(type define than the word you want to define) \n tell you my name (make sure you type What is your name) \n What i am (type what are you) \n Tell you the time \n'
+      ('define words(type define than the word you want to define) \n tell you my name (make sure you type What is your name) \n What i am (type what are you) \n Tell you the time \n')
 
 whatIsYourName = ('my name is cyana' )
 WhatCanIDO = 'here is a list of things i can do'
