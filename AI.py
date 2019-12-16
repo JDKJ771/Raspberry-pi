@@ -1,12 +1,20 @@
 import datetime
-Select_name = input('what would you like to call me?')
-whatIsYourName = input('what would like me to call you')
 class AI:
-      
-      def __init__(self, name):
+          
+  def __init__(self, name):
             self.name = cyana
             
-
+Def calculator():
+      Num1 = input(‘put your first number here’)
+      Num2 = input(‘put your second number here’)
+      Add = int(Num1) + int(Num2)
+      Print (Add)
+      Mult = int(Num1) * int(Num2)
+      Print (Mult)
+      Divide = int(Num1) / int(Num2)
+      Print (Divide)
+      Sub = int(Num1) - int(Num2)
+      Print (Sub)
 
 def list():
       ('define words(type define than the word you want to define) \n tell you my name (make sure you type What is your name) \n What i am (type what are you) \n Tell you the time \n')
@@ -33,4 +41,7 @@ while True:
 
       if Maininput == 'what time is it':
                         print(currentTime)
+    
+
+         
                   
