@@ -1,9 +1,6 @@
 import calender
 import datetime
-class AI:
-          
-  def __init__(self, name):
-            self.name = Jarvis
+
  
 
 Def classic_calculator():
@@ -21,7 +18,7 @@ Def classic_calculator():
 def list():
       ('define words(type define than the word you want to define) \n tell you my name (make sure you type What is your name) \n What i am (type what are you) \n Tell you the time \n')
 
-whatIsYourName = ('my name is cyana' )
+whatIsYourName = ('my name is Jarvis' )
 WhatCanIDO = 'here is a list of things i can do'
 WhatAreYou = 'I am a ANI or Artificial Narrow Intelligence'
 now = datetime.datetime.now()
@@ -29,7 +26,7 @@ currentTime = datetime.time()
 calender = now.date
 input('Welcome My name is Jarvis what can i do for you today')            
 while True:            
-      Maininput = input('Hello what can i do for you')
+      Maininput = input('hi how can i help you')
 
 
       if Maininput == 'what is your name':
