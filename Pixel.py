@@ -31,7 +31,7 @@ while True:
 
       
       if Maininput == 'open calculator':
-               print(classic_calculator)
+               print(Num1)
    
       if Pixel_Random == 'open calculator':
               print (classic_calculator)
@@ -64,4 +64,8 @@ while True:
     
 
          
-                  
+def databank():
+        file1 = raw_input()
+        Note_TO_Self = raw_input()
+        
+                                
