@@ -3,7 +3,7 @@ import datetime
  
 while True:
    import random
-   Pixel_Random = input(random.choice(['hi how can i help','whats up', 'yes']))
+   Pixel_Random = (random.choice(['hi how can i help','whats up', 'yes']))
 def classic_calculator():
       Num1 = input('what is your fist number')
       Num2 = input('what is your second number')
@@ -18,7 +18,9 @@ def classic_calculator():
 
 def list():
       ('define words(type define than the word you want to define) \n tell you my name (make sure you type What is your name) \n What i am (type what are you) \n Tell you the time \n')
-
+def pixel_answer():
+         print (Pixel_Random)
+         input('')
 whatIsYourName = ('my name is Pixel')
 WhatCanIDO = 'here is a list of things i can do'
 WhatAreYou = 'I am a ANI or Artificial Narrow Intelligence'
