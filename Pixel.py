@@ -3,7 +3,8 @@ import datetime
  
 while True:
    import random
-   Pixel_Random = (random.choice(['hi how can i help','whats up', 'yes']))
+   hello = ['hi how can i help','wassup', 'yes']
+   Pixel_Random = (random.choice(hello))
 def classic_calculator():
       Num1 = input('what is your fist number')
       Num2 = input('what is your second number')
@@ -27,10 +28,12 @@ WhatAreYou = 'I am a ANI or Artificial Narrow Intelligence'
 cdt = datetime.datetime.now()
 currentTime = cdt.strftime("%H:%M")
 date = datetime.date.today()
-Welcome = input('Welcome my name is Jarvis how can i help')           
+Welcome = input('Welcome my name is Pixel how can i help you today')           
+print(Welcome)
 while True:            
       Maininput = input()
-
+      
+      
       
       if Maininput == 'open calculator':
                print(Num1)
@@ -42,7 +45,7 @@ while True:
       if Pixel_Random == 'can you do me a favor'
               print('whats up')
       if Pixel_Random == 'whats the date'
-              print('the date is' + date)
+              print('today is' + date)
       if Pixel_Random == 'what time is it'
               print('The time is' + currentTime)
       if Pixel_Random == 'can you do me a favor'
