@@ -19,9 +19,6 @@ def classic_calculator():
 
 def list():
       ('define words(type define than the word you want to define) \n tell you my name (make sure you type What is your name) \n What i am (type what are you) \n Tell you the time \n')
-def pixel_answer():
-         print (Pixel_Random)
-         input('')
 whatIsYourName = ('my name is Pixel')
 WhatCanIDO = 'here is a list of things i can do'
 WhatAreYou = 'I am a ANI or Artificial Narrow Intelligence'
@@ -29,9 +26,9 @@ cdt = datetime.datetime.now()
 currentTime = cdt.strftime("%H:%M")
 date = datetime.date.today()
 Welcome = input('Welcome my name is Pixel how can i help you today')           
-print(Welcome)
+
 while True:            
-      Maininput = input()
+      Maininput = input(Welcome)
       
       
       
@@ -42,13 +39,13 @@ while True:
               print (classic_calculator)
       if Pixel_Random == 'what is your name':
               print(whatIsYourName)
-      if Pixel_Random == 'can you do me a favor'
+      if Pixel_Random == 'can you do me a favor':
               print('whats up')
-      if Pixel_Random == 'whats the date'
+      if Pixel_Random == 'whats the date':
               print('today is' + date)
-      if Pixel_Random == 'what time is it'
+      if Pixel_Random == 'what time is it':
               print('The time is' + currentTime)
-      if Pixel_Random == 'can you do me a favor'
+      if Pixel_Random == 'can you do me a favor':
              print('sure whats up')
    
     
