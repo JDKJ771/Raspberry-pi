@@ -1,0 +1,7 @@
+##Enter these commands to enable microphone setup
+lsusb -t
+##look ro output “Class=Audio, Driver=snd-usb-audio”
+##next line enter:
+sudo apt-get install libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-dev
+then:
+sudo pip3 install pyaudio
