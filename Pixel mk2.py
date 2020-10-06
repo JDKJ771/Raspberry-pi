@@ -24,4 +24,10 @@ while True:
     elif Termanal == "time" or Termanal == "What time is it" or Termanal == "clock":
         print(ct)
                  
-    elif Termanal == ""
+    elif Termanal == "system":
+                 width = 128
+                 higth = 64
+                 window = pygame.display.set_mode((width,higth))
+                 
+    else:
+                 print("I don't understand please rephrase the question")
