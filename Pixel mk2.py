@@ -1,9 +1,11 @@
 import datetime
+import calender
 import random
 from time import sleep
-#import pygame # for voice services
+import pygame # for voice services and GUI
 #import machine #for controlling prossesor and microphone and speaker
 
+today = datetime.date.today()
 cd = datetime.datetime.now()
 ct = cd.strftime("%H:%M)
 
@@ -28,6 +30,14 @@ while True:
                  width = 128
                  higth = 64
                  window = pygame.display.set_mode((width,higth))
+                 
+    elif Termanal == "whats on my sceadule":
+                 print()
+                 
+                 
+    elif Termanal == "add something to my camender"
+                 Cal = input("What would you like to add to your Calender and on what day,month,year ")
+                 
                  
     else:
                  print("I don't understand please rephrase the question")
