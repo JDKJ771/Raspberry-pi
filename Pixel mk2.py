@@ -1,5 +1,4 @@
 import datetime
-import calender
 import random
 from time import sleep
 import pygame # for voice services and GUI
@@ -7,14 +6,14 @@ import pygame # for voice services and GUI
 
 today = datetime.date.today()
 cd = datetime.datetime.now()
-ct = cd.strftime("%H:%M)
+ct = cd.strftime("%H:%M")
 
 #intro for commandline
 name = input('What would you like me to call you: ')
-sirmiss = input("would you like me to call you sir or miss (you can change this by the way) ")
+sirmiss = input("would you like me to call you sir or miss ")
 
-intro = ['Hello' + name, 'Hi' + sirmiss, 'Hello' + sirmiss, 'Hi' + name] 
-
+intro = ['Hello ' + name, 'Hi ' + sirmiss, 'Hello ' + sirmiss, 'Hi ' + name] 
+TC = ["Good","good you","good how are you doing"]
 
 while True:
     Termanal = input(random.choice(intro)).strip().lower()
@@ -35,9 +34,15 @@ while True:
                  print()
                  
                  
-    elif Termanal == "add something to my camender"
+    elif Termanal == "add something to my camender":
                  Cal = input("What would you like to add to your Calender and on what day,month,year ")
+                 t = input("WHat time would you like me to alert you at")
                  
+    elif Termanal == "hi how are you" or Termanal =="Hello How you been" or Termanal == "how are you":
+                  print(random.choice(TC))
+                  
+    elif Termanal == "what is your name":
+      print("My name is Pixel or commonly known as Personal Inteligence example for Enviormental Languages")
                  
     else:
                  print("I don't understand please rephrase the question")
